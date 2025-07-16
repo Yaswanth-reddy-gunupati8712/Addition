@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition Examples</title>
+    <link rel="stylesheet" href="Addition.css">
+</head>
+
+<body>
+    <label for="Enter a First Number">Enter a First Number:</label>
+    <input id="first" type="number">
+    <label for="operator">Choose a operator:</label>
+    <select id="operator1">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select><br>
+    <label for="Enter a Second Number">Enter a Second Number:</label>
+    <input id="second" type="number">
+    <label for="operator">Choose a operator:</label>
+    <select id="operator2">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select><br>
+    <label for="Enter a Third Number">Enter a Third Number:</label>
+    <input id="third" type="number">
+    <br>
+    <button id="Clear" type="submit" onclick="ClearData()">clear</button>
+    <button type="submit" onclick="AdditionData()">Total</button>
+    <label id="resultTextId" style="display: none;" for="Total Result">Total Result: </label>
+    <label id="result"></label>
+
+    <script src="Addition.js"></script>
+
+</body>
+
+</html>
